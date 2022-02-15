@@ -66,7 +66,7 @@ basic.forever(function () {
 })
 
 // clear screen
-function clearWithPause(sos) {
+function clearWithPause(sos: boolean) {
     // hold longer for mayday message
     if (sos ==  true) {
         // pause screen for 1s
